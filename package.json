@@ -20,8 +20,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --config=jest.config.js", 
+    "test": "jest --config=jest.config.js",
     "test:coverage": "jest --coverage --config=jest.config.js",
+    "e2e-test": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cypress": "^9.3.1"
   }
 }
